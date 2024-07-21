@@ -1,0 +1,85 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Calculator"
+        android:id="@+id/heading"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter first Number"
+        android:id="@+id/num1"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editnum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Second Number"
+        android:id="@+id/num2"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editnum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:padding="2sp"
+            android:id="@+id/add"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUB"
+            android:id="@+id/subtract"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUL"
+            android:id="@+id/multiply"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIV"
+            android:id="@+id/divide"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
